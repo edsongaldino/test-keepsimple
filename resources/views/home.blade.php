@@ -62,7 +62,7 @@
             @foreach ($vehicles as $vehicle)
                 <div class="col-md-3">
                     <div class="card mb-4 rounded-3 shadow-sm border-default">
-                        <div class="card-header py-3 text-white bg-car border-primary">
+                        <div class="card-header py-3 text-white bg-{{ $vehicle->type->icon }} border-primary">
                             <h4 class="my-0 fw-normal"><i class="fa fa-{{ $vehicle->type->icon }}" aria-hidden="true"></i></h4>
                         </div>
                         <div class="card-body">
