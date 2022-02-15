@@ -20,7 +20,7 @@ class VehicleController extends Controller
      */
     public function index()
     {
-        $vehicles = Vehicle::where('user_id', Auth::user()->id);
+        $vehicles = Vehicle::where('user_id', Auth::user()->id)->get();
         $types = VehicleType::all();
         $brands = VehicleBrand::all();
         return view('vehicles.index', compact('vehicles', 'types', 'brands'));
