@@ -57,7 +57,7 @@
 						</div>
 					</div>
 					<div class="text-center mt-5 text-muted">
-						Copyright &copy; {{ date('W') }} &mdash; Edson Galdino
+						Copyright &copy; Edson Galdino
 					</div>
 				</div>
 			</div>
